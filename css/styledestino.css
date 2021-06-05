@@ -1,0 +1,133 @@
+			body{
+				background-color: #DAE1E7;
+				/*background-image:url(images/hero.jpg);*/
+				background-image:url(../images/hero.jpg);
+			}
+			h1{
+				text-align: center;
+				font: 150% sans-serif;
+				/*background-color: #142850;*/
+				background-color: none;
+				margin:0px;
+				font-weight: normal;
+				color: #EFF2F6;
+				/*font: bold;*/
+			}
+			p{
+				font-weight: normal;
+				font-family: 'Tajawal',sans-serif;
+			}
+			table{
+				width: 70%;
+				/*border: #1257C0 1px solid;*/
+				/*margin-right: 180px;
+				margin-left: 180px;*/
+				position: center;
+				margin: auto;
+				/*border-spacing: 0px;*/
+				border-collapse: collapse;
+				/*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+				font-family: 'Tajawal', sans-serif;
+			}
+			#bibl td, #bibl th{
+				border: solid black 1px, solid #ddd;
+				padding: 8px;
+				text-align: center;
+				/*font-family: sans-serif;*/
+				color:white;
+				border: 3px solid white;
+				font-size: 20px;
+			}
+			.logotext{
+				/*font-family: sans-serif,Arial;*/
+				font-family: 'Tajawal', sans-serif;
+				color: white;
+			}
+			.subtitle{
+				text-align: center;
+				font-family: 'Tajawal', sans-serif;
+				/*font-family: sans-serif;*/
+				font-weight: normal;
+				color: white;
+			}
+			.tabla{
+				
+			}
+			/*#bibl tr:nth-child(even){
+				background-color: #f2f2f2;
+			}
+			#bibl tr:hover{
+				background-color: #ddd;
+			}*/
+			a:link{
+				color: white;
+				text-decoration: none;
+				font-family: 'Tajawal', sans-serif;
+			}
+			a:hover{
+				text-decoration: none;
+				font-family: 'Tajawal', sans-serif;
+			}
+			a:visited{
+				color: white;
+				text-decoration: none;
+				font-family: 'Tajawal', sans-serif;
+			}
+			a:active{
+				text-decoration: none;
+				font-family: 'Tajawal', sans-serif;
+			}
+			th{
+				background: #142850;
+				/*font-family: sans-serif;*/
+				font-family: 'Tajawal', sans-serif;
+				font-weight: normal;
+				text-align: center;
+				color: #EFF2F6;
+				/*font-color: #F9F9FB;*/
+			}
+			header{
+				/*background ;*/
+				display: flex;
+				/*margin-left:200px; 
+				margin-right:200px;*/
+				font-size: 20px;
+			}
+			nav{
+				background-color: none;
+				/*margin-left:200px; 
+				margin-right:200px;*/
+				color: #EFF2F6;
+				border-radius: 10px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				border-style: solid;
+				/*border-color: white;*/
+				font-size: 25px;	
+			}
+			.subtitle{
+				padding-top: 20px;
+				text-align: center;
+				color: white;
+			}
+			#strt{
+				text-align: center;
+				color: white;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				margin-left: 5px;
+				margin-bottom: 5px;
+				border: solid;
+			}
+			.upper{
+				display:flex;
+				/*background-image:url(images/hero.jpg);*/
+				align-self: center;
+				margin-left: 50px;
+				margin-right: 50px;
+				justify-content: space-between;
+			}

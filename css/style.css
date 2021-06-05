@@ -1,0 +1,118 @@
+			body{
+				background-color: #DAE1E7;
+				/*background-image:url(images/hero.jpg);*/
+				background-image:url(../images/hero.jpg);
+			}
+			h1{
+				text-align: center;
+				font: 150% sans-serif;
+				/*background-color: #142850;*/
+				background-color: none;
+				margin:0px;
+				font-weight: normal;
+				color: #EFF2F6;
+				/*font: bold;*/
+			}
+			p{
+				font-weight: normal;
+				font-family: 'Tajawal', sans-serif;
+			}
+			.bibliografia{
+				width: 70%;
+				/*border: #1257C0 1px solid;*/
+				/*margin-right: 180px;
+				margin-left: 180px;*/
+				position: center;
+				margin: auto;
+				/*border-spacing: 0px;*/
+				border-collapse: collapse;
+				/*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
+				font-family: 'Tajawal', sans-serif;
+			}
+			#bibl td, #bibl th{
+				border: solid black 1px, solid #ddd;
+				padding: 8px;
+				text-align: center;
+				/*font-family: sans-serif;*/
+				color:white;
+				border: 3px solid white;
+				font-size: 20px;
+			}
+			.tx{
+				color:white;
+			}
+			.tabla{
+			}
+			.logotext{
+				/*font-family: sans-serif,Arial;*/
+				font-family: 'Tajawal', sans-serif;
+				color: white;
+			}
+			.subtitle{
+				text-align: center;
+				font-family: 'Tajawal', sans-serif;
+				/*font-family: sans-serif;*/
+				font-weight: normal;
+			}
+			/*#bib1 tr:nth-child(odd){
+				background: #f3f3f3;
+			}
+
+			#bibl tr:nth-child(even){
+				background: #f2f2f2;
+			}
+			
+		 	#bibl tr:hover{
+				background-color: #ddd;
+			}*/
+			a:link{
+				color: white;
+				text-decoration: underline;
+			}
+			a:hover{
+				text-decoration: underline;
+			}
+			a:visited{
+				color: white;
+				text-decoration: underline;
+			}
+			a:active{
+				text-decoration: underline;
+			}
+			.t1, .t2, .t3, .t4{
+				background: #142850;
+				/*font-family: sans-serif;*/
+				font-family: 'Tajawal', sans-serif;
+				font-weight: normal;
+				text-align: center;
+				color: #EFF2F6;
+				/*font-color: #F9F9FB;*/
+			}
+			header{
+				/*background: ;*/
+				display: flex;
+				/*margin-left:200px; 
+				margin-right:200px;*/
+				font-size: 20px;
+			}
+			nav{
+				background-color: none;
+				/*margin-left:200px; 
+				margin-right:200px;*/
+				color:#EFF2F6;
+				border-radius: 10px;
+				padding-top: 10px;-
+				padding-bottom: 10px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				border-style: solid;
+				font-size: 25px;
+			}
+			.upper{
+				display:flex;
+				/*background-image:url(../images/hero.jpg);*/
+				align-self: center;
+				margin-left: 50px;
+				margin-right: 50px;
+				justify-content: space-between;
+			}
